@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var tiger = undefined;
 var lion = null;
 if (tiger === lion) {
@@ -13,5 +15,6 @@ console.log(typeof age);
 if (login) {
     userName = "Vivekananda Dash";
     age = 24;
-    console.log("user Name is ".concat(userName, " and user age is ").concat(age));
+    console.log(`user Name is ${userName} and user age is ${age}`);
 }
+//# sourceMappingURL=nullndundefined.js.map
